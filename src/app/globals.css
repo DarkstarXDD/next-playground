@@ -1,51 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-.react-aria-RadioGroup {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  color: white;
-}
-
-.react-aria-Radio {
-  display: flex;
-  align-items: center;
-  gap: 0.571rem;
-  font-size: 1.143rem;
-  color: white;
-  forced-color-adjust: none;
-
-  &:before {
-    content: "";
-    display: block;
-    width: 1.286rem;
-    height: 1.286rem;
-    box-sizing: border-box;
-    border: 0.143rem solid red;
-    background: white;
-    border-radius: 1.286rem;
-    transition: all 200ms;
-  }
-
-  &[data-pressed]:before {
-    border-color: var(--border-color-pressed);
-  }
-
-  &[data-selected] {
-    &:before {
-      border-color: var(--highlight-background);
-      border-width: 0.429rem;
-    }
-
-    &[data-pressed]:before {
-      border-color: var(--highlight-background-pressed);
-    }
-  }
-
-  &[data-focus-visible]:before {
-    outline: 2px solid var(--focus-ring-color);
-    outline-offset: 2px;
-  }
+@theme {
+  --font-*: initial;
+  --font-inter: var(--font-inter);
 }
