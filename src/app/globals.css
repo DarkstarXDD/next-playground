@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @plugin "tailwindcss-animate";
+@plugin "tailwindcss-react-aria-components";
 
 @theme {
   --font-*: initial;
@@ -7,6 +8,8 @@
 
   --color-primary-red: hsl(0, 100%, 69%);
   --color-primary-blue: hsl(217, 35%, 20%);
+  --color-muted-foreground: oklch(0.556 0 0);
+  --color-muted: oklch(0.97 0 0);
 }
 
 :root {
