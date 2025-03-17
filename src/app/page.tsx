@@ -1,8 +1,5 @@
-import ModalExample from "@/components/ui/Dialog"
+import Issue from "@/components/Issue"
 
-// export default function Home() {
-//   return <ModalExample />
-// }
 export default function Home() {
-  return <ModalExample />
+  return <Issue />
 }
