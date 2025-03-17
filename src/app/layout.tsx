@@ -3,8 +3,8 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "PetroPlus - by App360",
-  description: "Gas Station App",
+  title: "NextJS Playground",
+  description: "NextJS Playground",
 }
 
 const inter = Inter({
