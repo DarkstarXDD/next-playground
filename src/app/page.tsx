@@ -1,5 +1,7 @@
-import LoginForm from "@/components/login/LoginForm"
-
-export default function Home() {
-  return <LoginForm />
+export default function HomePage() {
+  return (
+    <div>
+      <h1>Hello World</h1>
+    </div>
+  )
 }
