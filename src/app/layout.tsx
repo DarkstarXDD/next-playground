@@ -1,11 +1,11 @@
-import type { Metadata } from "next"
 import { Inter } from "next/font/google"
+
+import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "[Title]",
-  description:
-    "Check out Darkstar's solution for the {challenge name} challenge on Frontend Mentor",
+  title: "Next Playground",
+  description: "Next.js Playground",
 
   authors: {
     name: "Darkstar",
@@ -17,8 +17,7 @@ export const metadata: Metadata = {
     url: "https://challenge-name-darkstarxdd.vercel.app/",
     title: "devfinder",
 
-    description:
-      "Check out Darkstar's solution for the {challenge name} challenge on Frontend Mentor",
+    description: "Next.js Playground",
 
     images: {
       url: "https://challenge-name-darkstarxdd.vercel.app/og-img.jpeg",
