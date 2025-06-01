@@ -1,9 +1,7 @@
-import MyForm from "@/components/MyForm"
-
-export default function HomePage() {
+export default function Home() {
   return (
-    <div>
-      <MyForm />
-    </div>
+    <main>
+      <div>Hello world!</div>
+    </main>
   )
 }
