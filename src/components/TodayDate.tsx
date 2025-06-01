@@ -15,7 +15,12 @@ export default function TodayDate() {
   return (
     <div className="grid gap-4">
       <p className="text-2xl font-medium text-zinc-300">{formattedDate}</p>
-      <p className="text-2xl font-medium text-zinc-300">{formattedTime}</p>
+      <p
+        suppressHydrationWarning={true}
+        className="text-2xl font-medium text-zinc-300"
+      >
+        {formattedTime}
+      </p>
     </div>
   )
 }
