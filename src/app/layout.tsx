@@ -4,8 +4,9 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Next Playground",
-  description: "Next.js Playground",
+  title: "[Title]",
+  description:
+    "Check out Darkstar's solution for the {challenge name} challenge on Frontend Mentor",
 
   authors: {
     name: "Darkstar",
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
     url: "https://challenge-name-darkstarxdd.vercel.app/",
     title: "devfinder",
 
-    description: "Next.js Playground",
+    description:
+      "Check out Darkstar's solution for the {challenge name} challenge on Frontend Mentor",
 
     images: {
       url: "https://challenge-name-darkstarxdd.vercel.app/og-img.jpeg",
@@ -40,7 +42,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} font-inter bg-zinc-700 text-white`}>
+      <body className={`${inter.variable} font-inter bg-zinc-800 text-white`}>
         {children}
       </body>
     </html>
